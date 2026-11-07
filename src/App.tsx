@@ -201,7 +201,7 @@ function App() {
               <TiltCard className="visual-card main-card" maxTilt={18}>
                 <div className="card-topline"><span>MM / 2026</span><span>01—04</span></div>
                 <div className="portrait-placeholder">
-                  <img className="portrait-image" src="/image.png" alt="Melissa Mokhbat wearing her graduation stole" />
+                  <img className="portrait-image" src={`${import.meta.env.BASE_URL}image.png`} alt="Melissa Mokhbat wearing her graduation stole" />
                   <span className="portrait-caption">full stack<br />developer</span>
                 </div>
                 <div className="card-bottomline"><span>ALGIERS, DZ</span><span>AVAILABLE</span></div>
